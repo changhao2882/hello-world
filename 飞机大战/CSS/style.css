@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*背景*/
+#mainScreen{
+	width: 480px;
+	height: 700px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;//超过就隐藏
+}
+.bg{
+	width: 480px;
+	height: 700px;
+	position: absolute;
+	background-image: url(../img/background.png);
+}
+#bg2{
+	top: -700px;
+}
+
+/*飞机*/
+#airplane{
+	width: 102px;
+	height: 126px;
+	background-image: url(../img/me1.png);
+	position: absolute;
+	left: 190px;
+	top: 574px;
+}
+.bullent{
+	position: absolute;
+	width: 5px;
+	height: 11px;
+	background-image: url(../img/bullet1.png);
+}
+.tank{
+	position: absolute;
+	width: 57px;
+	height: 43px;
+	background-image: url(../img/enemy1.png);
+}
+	
